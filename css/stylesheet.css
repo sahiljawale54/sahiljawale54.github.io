@@ -129,11 +129,7 @@ header.scroll ul li a  {
   font-size: 24px;
   margin-bottom: 10px;
 }
-.content p {
-  user-select: none;
-  font-size: 30px;
-  
-}
+
 .w50 {
   min-width: 50%;
 }
@@ -145,7 +141,7 @@ header.scroll ul li a  {
   box-shadow: 0px 0px 50px 5px rgb(17, 17, 21);
 }
 
-.services {
+.certificate {
   background:#111 ;
 }
 
@@ -153,14 +149,14 @@ header.scroll ul li a  {
   color :#fff;
 }
 
-.services .content {
+.certificate .content {
   display: flex;
   justify-content: center;
   flex-wrap:  wrap;
   flex-direction: row;
 }
 
-.services .content .servicesBx {
+.certificate .content .certificateBx {
   padding: 40px 20px;
   background: #222;
   color: #fff;
@@ -169,14 +165,14 @@ header.scroll ul li a  {
   text-align: center;
   transition: 0.5s;
 }
-.services .content .servicesBx:hover {
+.certificate .content .certificateBx:hover {
   background: #2196f3;
 }
-.services .content .servicesBx  img {
+.certificate .content .certificateBx  img {
   max-width: 80px;
   filter:invert(1);
 }
-.services .content .servicesBx h2{
+.certificate .content .certificateBx h2{
   font-size: 20px;
   font-weight: 600;
 }
@@ -256,11 +252,7 @@ header.scroll ul li a  {
   resize: none;
 
 }
-a{
-  color: #fff;
-  text-decoration: none;
-  
-}
+
 .formbx form textarea {
   min-height: 200px;
 }
