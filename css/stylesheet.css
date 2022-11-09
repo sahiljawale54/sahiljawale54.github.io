@@ -129,7 +129,11 @@ header.scroll ul li a  {
   font-size: 24px;
   margin-bottom: 10px;
 }
-
+.content p {
+  user-select: none;
+  font-size: 30px;
+  
+}
 .w50 {
   min-width: 50%;
 }
@@ -252,7 +256,11 @@ header.scroll ul li a  {
   resize: none;
 
 }
-
+a{
+  color: #fff;
+  text-decoration: none;
+  
+}
 .formbx form textarea {
   min-height: 200px;
 }
