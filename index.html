@@ -9,21 +9,15 @@
   <script src="https://kit.fontawesome.com/28c6bf77a9.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <!-- home
-about me 
-certifications
-my projects
-links
-conatcts -->
   <header>
     <a href="#" class="logo">Portfolio</a>
     <div class="toggle" onclick="togglemenu();"></div>
       <ul class="menu">
-        <li> <a href="#home" onclick="togglemenu();">Home</a></li>
-        <li> <a href="#about" onclick="togglemenu();">About Me</a></li>
-        <li> <a href="#projects" onclick="togglemenu();">Certifications</a></li>
-        <li> <a href="#" onclick="togglemenu();">My Projects</a></li>
-        <li> <a href="#" onclick="togglemenu();">Profile Links</a></li>
+        <li> <a href="#home" onclick="togglemenu();"> Home</a></li>
+        <li> <a href="#aboutme" onclick="togglemenu();"> About Me</a></li>
+        <li> <a href="#certifications" onclick="togglemenu();">Certifications</a></li>
+        <li> <a href="#myprojects" onclick="togglemenu();">My Projects</a></li>
+        <li> <a href="#links" onclick="togglemenu();">Links</a></li>
         <li> <a href="#contact" onclick="togglemenu();">Contact</a></li>
       </ul>
   </header>
@@ -32,11 +26,13 @@ conatcts -->
     <div class="textbx">
       <h2>Hello, I'm <br><span>Sahil Jawale.</span></h2>
       <h3>I'm a Web Developer and Competetive Programmer.</h3>
-      <a href="#" class="btn"> About Me</a>
+      <a href="#aboutme" class="btn"> About Me</a>
     </div>
   </section>
 
-  <section class="about" id="about">
+
+  <!-- ABOUT ME -->
+  <section class="about" id="aboutme">
     <div class="heading">
       <h2>About Me</h2>
     </div>
@@ -45,7 +41,7 @@ conatcts -->
       <div class="contentBx w50">
         
         <h3>I'm a Web Developer and Competetive Programmer.</h3>
-        <p>I am currently pursuing B.E in <strong>Computer Enginnering</strong> at Dr. D. Y. Patil Institute of Technology Pimpri, Pune. My current CGPA is <strong>9.54/10</strong> and I will graduate in <strong>June  2024</strong>.
+        <p>I am currently pursuing B.E in Computer engineering at Dr. D. Y. Patil Institute of Technology, Pimpri, Pune . My current CGPA is 9.54/10 and I will graduate in jine 2024.
         </p>
       </div>
       <div class="w50">
@@ -53,38 +49,40 @@ conatcts -->
       </div>
     </div>
   </section>
-  <section class="services">
+
+  <!-- CERTIFICATIONS -->
+  <section class="certificate" id="certifications">
     <div class="heading white">
-      <h2>Our services</h2>
+      <h2>Certifications</h2>
       <p>Lorem ipsum dolor,voluptatibus natus eligendi soluta!</p>
     </div>
     <div class="content">
-      <div class="servicesBx">
+      <div class="certificateBx">
         <img src="images/icon1.png" alt="" srcset="">
         <h2>web design</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, error autem neque dolores necessitatibus eius placeat voluptas id consectetur! Minus in neque ratione ipsam nostrum qui explicabo blanditiis eaque dolorem.</p>
       </div>
-      <div class="servicesBx">
+      <div class="certificateBx">
         <img src="images/icon2.png" alt="" srcset="">
         <h2>web design</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, error autem neque dolores necessitatibus eius placeat voluptas id consectetur! Minus in neque ratione ipsam nostrum qui explicabo blanditiis eaque dolorem.</p>
       </div>
-      <div class="servicesBx">
+      <div class="certificateBx">
         <img src="images/icon3.png" alt="" srcset="">
         <h2>web design</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, error autem neque dolores necessitatibus eius placeat voluptas id consectetur! Minus in neque ratione ipsam nostrum qui explicabo blanditiis eaque dolorem.</p>
       </div>
-      <div class="servicesBx">
+      <div class="certificateBx">
         <img src="images/icon4.png" alt="" srcset="">
         <h2>web design</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, error autem neque dolores necessitatibus eius placeat voluptas id consectetur! Minus in neque ratione ipsam nostrum qui explicabo blanditiis eaque dolorem.</p>
       </div>
-      <div class="servicesBx">
+      <div class="certificateBx">
         <img src="images/icon5.png" alt="" srcset="">
         <h2>web design</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, error autem neque dolores necessitatibus eius placeat voluptas id consectetur! Minus in neque ratione ipsam nostrum qui explicabo blanditiis eaque dolorem.</p>
       </div>
-      <div class="servicesBx">
+      <div class="certificateBx">
         <img src="images/icon6.png" alt="" srcset="">
         <h2>web design</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, error autem neque dolores necessitatibus eius placeat voluptas id consectetur! Minus in neque ratione ipsam nostrum qui explicabo blanditiis eaque dolorem.</p>
@@ -92,9 +90,11 @@ conatcts -->
     </div>
   </section>
 
-  <section class = "work">
+
+  <!-- MY Projects -->
+  <section class = "work" id="myprojects">
     <div class="heading">
-      <h2>Our sWork</h2>
+      <h2>My Projects</h2>
       <p>Lorem ipsum dolor,voluptatibus natus eligendi soluta!</p>
     </div>
     <div class="content">
@@ -116,9 +116,11 @@ conatcts -->
     </div>
   </section>
 
-  <section class="testimonial">
+
+  <!-- LINKS -->
+  <section class="testimonial" id="links">
     <div class="heading"> 
-      <h2>Testimonial</h2>
+      <h2>Links</h2>
       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt, dolorum!</p>
     </div>
     <div class="content">
@@ -132,7 +134,10 @@ conatcts -->
       </div>
     </div>
   </section>
-  <section class="contact">
+
+
+  <!-- contact -->
+  <section class="contact" id="contact">
     <div class="heading white">
       <h2>Let's get in Touch!</h2>
       <p>Connect With Me</p>
@@ -153,8 +158,8 @@ conatcts -->
           <div class="box">
             <div class="icon"><i class="fa-solid fa-phone"></i></div>
             <div class="text">
-              <h3>Twitter</h3>
-              <a href="https://twitter.com/sahiljawale54?t=W3E_uXHhLiDRc1K38KLYmw&s=09" target="_blank">sahiljawale54</a>
+              <h3>Phone</h3>
+              <p>9673132082</p>
             </div>
           </div>
 
@@ -162,7 +167,7 @@ conatcts -->
             <div class="icon"><i class="fa-sharp fa-solid fa-envelope"></i></div>
             <div class="text">
               <h3>mail</h3>
-              <p>sahiljawale54@gmail.com</p>
+              <p>sahiljawale532gamol.com</p>
             </div>
           </div>
           </div>
