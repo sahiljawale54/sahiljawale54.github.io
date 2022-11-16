@@ -52,6 +52,34 @@ section {
   letter-spacing: 2px;
   font-weight: 500;
 }
+.scroll-up-btn {
+  position: fixed;
+  height: 45px;
+  width: 42px;
+  background: crimson;
+  right: 30px;
+  bottom: 10px;
+  text-align: center;
+  line-height: 45px;
+  color: #fff;
+  z-index: 9999;
+  font-size: 30px;
+  border-radius: 6px;
+  border-bottom-width: 2px;
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+.scroll-up-btn.show {
+  bottom: 30px;
+  opacity: 1;
+  pointer-events: auto;
+}
+.scroll-up-btn:hover {
+  filter: brightness(90%);
+}
+
 
 header {
   position: fixed;
@@ -118,7 +146,8 @@ header.scroll ul li a  {
 .content {
   display:flex;
   justify-content: space-between;
-  /* text-align: justify; */
+  text-align: justify; 
+  font-size: 1.9vw;
 }
 
 .contentBx {
@@ -148,6 +177,9 @@ header.scroll ul li a  {
 .heading.white {
   color :#fff;
 }
+.heading p {
+  padding-top: 5px;
+}
 
 .certificate .content {
   display: flex;
@@ -169,12 +201,15 @@ header.scroll ul li a  {
   background: #2196f3;
 }
 .certificate .content .certificateBx  img {
-  max-width: 80px;
-  filter:invert(1);
+  max-width: auto;
+  
 }
 .certificate .content .certificateBx h2{
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 600;
+}
+.certificate .content  .certificateBx p{
+  font-size: 15px;
 }
 .work .content{
   display: flex;
@@ -271,6 +306,7 @@ header.scroll ul li a  {
 
 .contactinfo {
   min-width: 40%;
+  color: #fff;
 
 }
 .contactinfobx {
@@ -307,11 +343,22 @@ header.scroll ul li a  {
 }
 
 .copyright{
-  background: #000;
-  color: #fff;
+  background: rgb(255, 255, 255);
+  padding: 15px 23px;
+  color: rgb(0, 0, 0);
   text-align: center;
-  padding: 10px;
 }
+
+.copyright p a {
+  color: rgb(244, 2, 51);
+  text-decoration: none;
+}
+.copyright p a:hover {
+  text-decoration: underline;
+}
+
+
+
 
 @media (max-width:991px){
   header , header.scroll{
